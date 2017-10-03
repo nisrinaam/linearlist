@@ -10,7 +10,7 @@ package no2sampai5;
  * @author TOSHIBA
  */
 public interface LinearList {
-   public boolean isEmpty();
+    public boolean isEmpty();
     public int size();
     public Object get(int index);
     public int indexOf(Object theElement);
@@ -20,5 +20,7 @@ public interface LinearList {
     public String toString();
     public void trimToSize();
     public Object setSize(int no);
-    public Object clear(); 
+    public Object clear();
+    public Object removeRange(int index, int index2);
+    public Object clone();
 }
